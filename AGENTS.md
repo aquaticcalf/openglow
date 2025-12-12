@@ -1,0 +1,1 @@
+- when in doubt, use the better context tool to get more information on the specfic tech stack that you are working with
