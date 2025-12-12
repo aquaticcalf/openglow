@@ -1,7 +1,8 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "tools": {
-    "skills*": false
+    "skills*": false,
+    "better-context*": false
   },
   "plugin": ["opencode-skills"]
 }
