@@ -1,1 +1,2 @@
 - when in doubt, use the better context tool to get more information on the specfic tech stack that you are working with
+- never use npm when you see bun.lock file, that is just stupid! use bun please
