@@ -48,7 +48,7 @@ now you can work on the branch without disturbing the main branch
 
 ### removing a worktree 
 
-to remove a worktree, use the following command:
+to remove a worktree, use the following command :
 
 ```bash
 # first make sure you are not in the worktree directory
@@ -60,7 +60,7 @@ this will remove the worktree and all its files, but will not delete the branch
 
 ### listing worktrees
 
-to list all the worktrees for the repository, use the following command:
+to list all the worktrees for the repository, use the following command :
 
 ```bash
 git worktree list 
