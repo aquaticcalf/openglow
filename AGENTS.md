@@ -1,2 +1,6 @@
 - never use npm when you see bun.lock file, that is just stupid! use bun please
 - ask the @context subagent if you need up to date info about any technology
+- when you are unsure of the intent of any query, 
+	- please for the love of the god, ask more questions, get more clarity
+	- prefer being sure over making assumptions
+- never make irreversible decisions by your own without asking for explicit permission
