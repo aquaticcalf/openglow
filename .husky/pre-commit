@@ -1,1 +1,1 @@
-bun fix && git add .
+bun biome check --write --error-on-warnings && git add . || exit 1

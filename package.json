@@ -20,7 +20,7 @@
 	"homepage": "https://github.com/aquaticcalf/openglow#readme",
 	"license": "MIT",
 	"scripts": {
-		"dev": "bun run --watch dev.ts",
+		"dev": "bun run --watch scripts/dev.ts",
 		"fix": "biome check --write",
 		"prepare": "husky"
 	}
