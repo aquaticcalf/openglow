@@ -1,5 +1,6 @@
 import os from "node:os"
 import { Elysia } from "elysia"
+import api from "@/api/index"
 
 const wifiMode = process.argv.includes("--wifi")
 
@@ -20,6 +21,7 @@ function getLocalIP(): string | undefined {
 const localIP = wifiMode ? getLocalIP() : undefined
 
 const app = new Elysia()
+	.use(api)
 	.get("/", () => new Response("openglow"))
 	.listen({
 		port: 54321,
